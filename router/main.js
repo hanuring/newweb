@@ -19,7 +19,7 @@ module.exports = function(app) {
      });
 
      app.get('/client',function(req,res){
-     res.render('clinet.html');
+     res.render('client.html');
      });
 
      app.get('/contact',function(req,res){
